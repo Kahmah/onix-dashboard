@@ -1,0 +1,38 @@
+
+
+
+header {
+    position: fixed;
+    /* left: 300px; */
+    /* top: 0; */
+    z-index: 33;
+    width: 100%;
+    background: var(--dark_01);
+    padding: 32px 350px 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 30px;
+    color: var(--d-white);
+}
+
+header h3 {
+    font-size: 12px;
+    color: var(--d-white);
+}
+
+.cw-btn {
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    background: linear-gradient(70deg, var(--g-main_ea), var(--g-main_53));
+    border: 1px solid var(--g-main_d5);
+}
+
+.cw-btn p {
+    font-size: 17px;
+    color: var(--dark_01);
+}

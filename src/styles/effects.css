@@ -1,0 +1,48 @@
+
+
+
+/* .effect-wrap .effect {
+    position: absolute;
+} */
+.effect-wrap .effect {
+    position: fixed;
+    /* z-index: -1; */
+}
+
+.effect-status {
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.effect-status.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+
+
+/* shadow_-_effects */
+.effect-1 {
+    right: 0;
+    bottom: 0;
+}
+.effect-1 img {
+    width: 530px;
+}
+
+.effect-2 {
+    right: 0;
+    bottom: -20px;
+}
+.effect-2 img {
+    width: 530px;
+}
+
+.effect-3 {
+    right: 0;
+    bottom: 0;
+}
+.effect-3 img {
+    width: 530px;
+}

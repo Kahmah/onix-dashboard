@@ -1,0 +1,96 @@
+
+
+/* -----------------
+logout
+----------------- */
+.logout-modal {
+    position: absolute;
+    top: 100px;
+    right: -400px;
+    /* background: wheat; */
+    background: var(--white);
+    border-radius: 10px;
+    width: 26.69%;
+    padding: 20px;
+    z-index: 999;
+    transition: all .5s;
+}
+
+.logout-modal.active {
+    right: 50px;
+}
+
+.logout-modal .header-user-dp-box {
+    background: var(--ui20);
+}
+
+.settings-plugins-box {
+    background: #FAFAFA;
+    border-radius: 8px;
+    padding: 10px 32px;
+}
+
+.logout-modal .brands-btn p {
+    color: #333333;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.add-brand-btn {
+    cursor: pointer;
+}
+.add-brand-btn p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #6900FF;
+    font-family: 'inter';
+}
+
+
+
+/* -----------------
+quote
+----------------- */
+.quote-modal {
+    padding: 0 80px;
+    min-height: 376px;
+    max-width: 529px;
+    background: var(--white);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    scale: 0;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate(50%, -50%);
+    z-index: 99;
+    transition: all .5s;
+}
+.quote-modal.active {
+    scale: 1;
+    opacity: 1;
+    pointer-events: all;
+    overflow: auto;
+}
+
+.quote-modal-img-box {
+    width: 129px;
+    height: 129px;
+    border-radius: 50%;
+    background: #EEFF9C;
+}
+
+.quote-modal-img-box img {
+    width: 100%;
+}
+
+.quote-modal h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'cabinet'; 
+}
+
+

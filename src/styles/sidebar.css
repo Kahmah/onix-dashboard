@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+.sidebar-column {
+    height: 100%;
+    background: var(--dark_03);
+    padding: 50px 26px 20px 29px;
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* gap: 100px; */
+}
+
+.sidebar-column::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sidebar-column::-webkit-scrollbar-track {
+    background: var(--ui90);
+}
+
+.sidebar-column::-webkit-scrollbar-thumb {
+    background: var(--my100);
+    border-radius: 5px;
+}
+
+.sidebar-logo-cont img {
+    width: 240px;
+    height: 72px;
+    object-fit: contain;
+    margin-bottom: 40px;
+}
+
+.sidebar-btn {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    padding: 15px 10px 15px 22px;
+    border-radius: 10px;
+    color: var(--g-main_ae);
+    background: transparent;
+    transition: .5s;
+}
+
+.sidebar-btn img {
+    width: 27px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.sidebar-btn p {
+    font-size: 18px;
+}
+/* .sidebar-btn:not(:last-child) {
+    margin-bottom: 12px;
+} */
+
+.sidebar-btn.active {
+    background: var(--flex1);
+}
+
+.network-wallet-btn {
+    width: 180px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background: var(--b-main_24);
+}
+
+.network-icon {
+    width: 29px;
+    height: 29px;
+    object-fit: contain;
+}
+
+.network-wallet-btn p {
+    font-size: 18px;
+    color: var(--b-main_bb);
+}
+
+.network-angle-box {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: var(--b-main_55);
+}
+
+.network-angle-box img {
+    width: 11px;
+    height: 8px;
+    object-fit: contain;
+}
+
+
+
+
